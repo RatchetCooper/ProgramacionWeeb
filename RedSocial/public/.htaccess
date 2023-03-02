@@ -1,0 +1,11 @@
+<IgModule mod_rewrite.c>
+
+Option -Multiviwes
+
+RewriteEngine On 
+RewriteBasse/RedSocial/public/
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME) !-F
+RewriteRule ^(,+)$ index.php?url=$1 [QSA,L]
+
+</IfModile>
